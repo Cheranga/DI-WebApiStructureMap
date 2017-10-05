@@ -1,8 +1,12 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using DI_WebApiStructureMap.DAL;
+using DI_WebApiStructureMap.DAL.Repositories;
 
-namespace DI_WebApiStructureMap.DAL.Repositories
+namespace DI_WebApiStructureMap.MemoryStore
 {
     public class MovieRepository : IMovieRepository
     {

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.DAL",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.Tests", "DI_WebApiStructureMap.Tests\DI_WebApiStructureMap.Tests.csproj", "{9A6129E0-C25A-405E-8980-1C16D8FA8074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.MemoryStore", "DI_WebApiStructureMap.MemoryStore\DI_WebApiStructureMap.MemoryStore.csproj", "{70B5F580-0AA1-44A7-B156-7F38385F730D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.Mappings", "DI_WebApiStructureMap.Mappings\DI_WebApiStructureMap.Mappings.csproj", "{CFC2EEF1-1D1C-45C7-B18D-BE7E654BBF31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B5F580-0AA1-44A7-B156-7F38385F730D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B5F580-0AA1-44A7-B156-7F38385F730D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B5F580-0AA1-44A7-B156-7F38385F730D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B5F580-0AA1-44A7-B156-7F38385F730D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC2EEF1-1D1C-45C7-B18D-BE7E654BBF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC2EEF1-1D1C-45C7-B18D-BE7E654BBF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC2EEF1-1D1C-45C7-B18D-BE7E654BBF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC2EEF1-1D1C-45C7-B18D-BE7E654BBF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
