@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using DI_WebApiStructureMap.App_Start;
 
 namespace DI_WebApiStructureMap
 {
@@ -19,6 +20,9 @@ namespace DI_WebApiStructureMap
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            // Setup the structure map dependency resolver
+            StructuremapWebApi.Start();
         }
     }
 }

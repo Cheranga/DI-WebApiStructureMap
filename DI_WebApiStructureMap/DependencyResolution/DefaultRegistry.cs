@@ -15,6 +15,8 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
+using DI_WebApiStructureMap.DAL.Repositories;
+
 namespace DI_WebApiStructureMap.DependencyResolution {
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
@@ -28,7 +30,9 @@ namespace DI_WebApiStructureMap.DependencyResolution {
                     scan.TheCallingAssembly();
                     scan.WithDefaultConventions();
                 });
-            //For<IExample>().Use<Example>();
+            
+            //TODO: Check for scope
+            For<IMovieRepository>().Use<MovieRepository>();
         }
 
         #endregion

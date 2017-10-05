@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap", "DI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.DAL", "DI_WebApiStructureMap.DAL\DI_WebApiStructureMap.DAL.csproj", "{665AC3D6-DFB2-4C89-9924-48A1B4C9A9B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_WebApiStructureMap.Tests", "DI_WebApiStructureMap.Tests\DI_WebApiStructureMap.Tests.csproj", "{9A6129E0-C25A-405E-8980-1C16D8FA8074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{665AC3D6-DFB2-4C89-9924-48A1B4C9A9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{665AC3D6-DFB2-4C89-9924-48A1B4C9A9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{665AC3D6-DFB2-4C89-9924-48A1B4C9A9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6129E0-C25A-405E-8980-1C16D8FA8074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
